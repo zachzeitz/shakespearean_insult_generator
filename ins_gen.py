@@ -14,7 +14,6 @@ def shakespeare_insult():
     elif coin == 2:
         ins=str("You " + random.choice(s_adverb)+" "+ random.choice(s_verb)+" " + random.choice(s_noun) + "!")
         engine.say(ins)
-    #print(ins)
     engine.runAndWait()
 
 root= Tk()
